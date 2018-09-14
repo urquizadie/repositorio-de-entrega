@@ -1,0 +1,75 @@
+
+/*CÓMO RESETEAR ESTILOS*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;/*sistema que resta el border y el padding al contenido final, para que funcionen los display:inline-block*/
+    /*se puede agregar acá el font-size para luego usar rem*/
+
+
+}
+
+/*CÓMO RESETEAR ESTILOS*/
+
+
+body {
+	background:red;
+	border: 6px dotted green;
+}
+
+.circulo {
+	width: 150px;
+	height: 150px;
+	background: tomato;
+	border-radius: 50%;
+	margin-bottom: 50px;
+	margin: 20px auto;/*PARA CENTRAR UN ELEMENTO, CALCULA EL TAMAÑO RESTANTE Y LO DISTRIBUYE A LOS COSTADOS*/
+}
+
+.forma {
+	width: 150px;
+	height: 150px;
+	background: yellow;
+	border-top-left-radius: 30px;
+	display: none; /* */
+}
+
+header {
+	padding: 10px;
+	background: tomato;
+	overflow: auto; /*le indica que si tiene un elemento flotado, lo reconozca y vuelva a contenerlo y se vuelva a estirar*/
+}
+
+h1 {
+	color: white;
+	text-transform: uppercase;
+	display: inline-block; /*para que el logo deje de ser un elemento de bloque y permita al nav subirse*/
+}
+
+nav ul li {
+	display: inline-block; /*para que los items del menú se alineen*/
+	margin: o 5px;
+	}
+
+a {
+	/**/
+}
+
+nav {
+	float: right;
+}
+
+img {
+	display: block;
+	margin: auto;
+	/*primera y mejor forma de CENTRAR UNA IMAGEN. usando margin: auto; solo funciona con elementos de bloque, debemos ponerle entnces*/
+	/*segunda manera de centrar: text-align:center pero debemos ponerla en un contenedor, en este caso un div. */
+
+}
+
+
+p {
+	float: 
+}
